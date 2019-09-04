@@ -5,21 +5,13 @@ For our project, we combined three existing pieces of code from [this](https://m
 Our final program is a sort of game. The microbit starts off by displaying a question mark. When the microbit is shaken, it randomly selects one of four characters from the classic video game *Super Mario Bros*. The character's name scrolls across the screen, then the microbit intoduces itself as the character (speaking in a modified voice to suit the character). After this, the microbit plays the chorus of the video game's theme song. The process is now completed, meaning that the microbit will display the question mark once more, ready for the next round of the game. 
 
 This is our code:
-'''
+```
 from microbit import *
 import music
 import speech
 import random
-
-answers=[
-"Mario",
-"Luigi",
-"Peach",
-"Bowser"
-]
-
+answers=["Mario","Luigi","Peach","Bowser"]
 theme_song = ["E3:1","E3:1","R:1","E3:1","R:1","C3:1","E:2","G4:2","R:2","G3:1"]
-
 while True:
     display.show("?")
     if accelerometer.was_gesture("shake"):
@@ -40,7 +32,7 @@ while True:
          speech.say("Mwah ha ha ha",pitch=120,speed=255)
       sleep (1000)
       music.play(theme_song)
-'''
+```
 
 The microbit characteristcs that we used were speech, gestures and music. We used the built-in accelerometer in the microbit so that when the microbit is shaken, the movement is detected and the microbit chooses from one of the four game characters options.
 
