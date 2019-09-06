@@ -1,9 +1,12 @@
 # BBC-Microbit-Project
 
+### Program source reference URL
 For our project, we combined three existing pieces of code from [this](https://microbit-micropython.readthedocs.io/en/latest/tutorials/introduction.html) website. The three pieces of code we used from this website included code to make our microbit [play music](https://microbit-micropython.readthedocs.io/en/latest/tutorials/music.html#wolfgang-amadeus-microbit), [detect gestures](https://microbit-micropython.readthedocs.io/en/latest/tutorials/gestures.html#magic-8) and [speak](https://microbit-micropython.readthedocs.io/en/latest/tutorials/speech.html).
 
+### Program description
 Our final program is a sort of game. The microbit starts off by displaying a question mark. When the microbit is shaken, it randomly selects one of four characters from the classic video game *Super Mario Bros*. The character's name scrolls across the screen, then the microbit intoduces itself as the character (speaking in a modified voice to suit the character). After this, the microbit plays the chorus of the video game's theme song. The process is now completed, meaning that the microbit will display the question mark once more, ready for the next round of the game. 
 
+### Python Code listing
 This is our code:
 ```
 from microbit import *
@@ -34,7 +37,9 @@ while True:
       music.play(theme_song)
 ```
 
+### BBC Microbit sensors or characteristics used / showcased
 The microbit characteristcs that we used were speech, gestures and music. We used the built-in accelerometer in the microbit so that when the microbit is shaken, the movement is detected and the microbit chooses from one of the four game characters options.
 
-
+### Testing information
+We tested our project by first making sure that all three aspects of the code were wokring correctly seperately. For example, testing that the theme song we figured out was working properly. In that case, we found the key to be wrong and altered it accoradingly. We only had two characters in the beginning to make it more easy to test. After the speech, randomisation and themesong elements were working correctly in multiple tests, we amalgamated them and tested the final project
 
