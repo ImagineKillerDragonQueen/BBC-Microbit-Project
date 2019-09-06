@@ -46,14 +46,15 @@ We followed the process of using the code from our sources and adjusting it to s
 
 ### Ideas to Extend the Project
 Our extension ideas are as follows: 
-1.We could add more characters from the *Super Mario Bros* videogame- such as Yoshi the Dinosaur. In this case, the LED display would show "Yoshi" and the micro bit would say "Yoshi!" in a voice setting similar to that of Yoshi's in the game itself.
 
-2.After Peach (the princess whom Mario has to rescue in order to win the game) has said her catchphrase of "Everything's Peachy!" and the theme song has played, the LED display on the micro bit would show "You Win!" as a reference to the original game.
+-We could add more characters from the *Super Mario Bros* videogame- such as Yoshi the Dinosaur. In this case, the LED display would -show "Yoshi" and the micro bit would say "Yoshi!" in a voice setting similar to that of Yoshi's in the game itself.
 
-3.Bowser is the villian of *Super Mario Bros* and if he defeats Mario at the end of the game, the screen would display "Game Over." As a reference to this idea, after the Bowser on the micro bit has said his catchphrase of "Mwah ha ha" and the micro bit has played the theme song, the LED display could show "Game Over" and the micro bit would shut down, indicating the player has "lost" the game.
+-After Peach (the princess whom Mario has to rescue in order to win the game) has said her catchphrase of "Everything's Peachy!" and the -theme song has played, the LED display on the micro bit would show "You Win!" as a reference to the original game.
 
-4.If we were to not use the Bowser extension idea above, we could use this idea instead. If the player were to get Bowser three times in a row, then the LED display would show a "fireball" (referencing Bowers' ability to create fireballs) and the micro bit would play a "whooshing" sound to accompany the fireball.
+-Bowser is the villian of *Super Mario Bros* and if he defeats Mario at the end of the game, the screen would display "Game Over." As a -reference to this idea, after the Bowser on the micro bit has said his catchphrase of "Mwah ha ha" and the micro bit has played the -theme song, the LED display could show "Game Over" and the micro bit would shut down, indicating the player has "lost" the game.
 
-5.If the player were to get Mario (the hero of the game) three times in a row, the micro bit would play the "1UP" sound and show a mushroom on the LED display. This references a mushroom in the game that gives Mario an extra life- a 1UP mushroom.
+-If we were to not use the Bowser extension idea above, we could use this idea instead. If the player were to get Bowser three times in -a row, then the LED display would show a "fireball" (referencing Bowers' ability to create fireballs) and the micro bit would play a -"whooshing" sound to accompany the fireball.
 
-6.Finally, if the player has played the game 5 times (gotten 5 characters), the micro bit LED display would show a star, and the "Super Star" music would play. After this, the display would show "Thank You For Playing!". The star references the Super Star in *Super Mario Bros* that makes Mario invincible for a short time. The appreciation message references how if a player completed *Super Mario Bros* to 100%, the developers included a hidden secret and thank you message in the game.
+-If the player were to get Mario (the hero of the game) three times in a row, the micro bit would play the "1UP" sound and show a -mushroom on the LED display. This references a mushroom in the game that gives Mario an extra life- a 1UP mushroom.
+
+-Finally, if the player has played the game 5 times (gotten 5 characters), the micro bit LED display would show a star, and the "Super -Star" music would play. After this, the display would show "Thank You For Playing!". The star references the Super Star in *Super Mario -Bros* that makes Mario invincible for a short time. The appreciation message references how if a player completed *Super Mario Bros* to -100%, the developers included a hidden secret and thank you message in the game.
