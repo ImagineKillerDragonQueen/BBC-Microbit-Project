@@ -38,7 +38,7 @@ while True:
 ```
 
 ### BBC Microbit Sensors or Characteristics Used / Showcased
-The microbit characteristcs that we used were speech, gestures and music. We used the built-in accelerometer in the microbit so that when the microbit is shaken, the movement is detected and the microbit chooses from one of the four game characters options.
+The microbit characteristcs that we used were speech, gestures and music. We used the built-in accelerometer in the microbit so that when the microbit is shaken, the movement is detected and the microbit chooses from one of the four game characters options: Mario, Luigi, Bowser and Princess Peach.
 
 ### Testing Information
 We tested our project by first making sure that all three aspects of the code were working correctly separately. For example, we tested that our figured-out theme song was working properly. For this, we found the pitch key to be wrong and altered it accordingly. Then, we realised that the random generator that selected a character would always give the first character in the list after testing it a couple of times - we found that commas between the items in the list of characters were missing. Once we had fixed this, the program was able to output all the different characters. The microbit was also unable to correctly pronounce the name “Luigi” and we fixed this issue by spelling his name phonetically. The hardest problem we faced was modifying the voice settings to make each character sound like their counterpart in the original video game. We did this by researching how to modify the voice and then, by trial and error, adjusting the pitch and speed of each character’s voice until it sounded right.
